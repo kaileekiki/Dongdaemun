@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDM Market Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="header">
+        <div class="container nav-inner">
+            <a href="#" class="nav-logo">
+                <div class="nav-logo-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2zm0 4.5l6.5 13h-13L12 6.5z"/></svg>
+                </div>
+                <div class="nav-logo-text">DDM<span>Connect</span></div>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#register" class="nav-link">Register Store</a>
+                <a href="#inquiry" class="nav-link">Contact Us</a>
+                <a href="index.html" class="nav-link lang">한국어</a>
+            </nav>
+            
+            <div class="nav-cta">
+                <a href="#register" class="btn btn-primary">Register Now</a>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#hero" class="mobile-nav-link">Home</a>
+        <a href="#features" class="mobile-nav-link">Features</a>
+        <a href="#products" class="mobile-nav-link">Products</a>
+        <a href="#register" class="mobile-nav-link">Register Store</a>
+        <a href="#inquiry" class="mobile-nav-link">Contact Us</a>
+        <a href="index.html" class="mobile-nav-link">한국어</a>
+        <div class="mobile-nav-cta">
+            <a href="#register" class="btn btn-primary" style="width:100%; justify-content:center;">Register Now</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span> B2B/B2C Product Promotion Platform
+                </div>
+                <h1 class="hero-title">Discover Dongdaemun Market Products <span class="highlight">Online</span></h1>
+                <p class="hero-subtitle">A platform where local stores can showcase their products and buyers can easily find fabrics, accessories, and fashion materials before visiting the market.</p>
+                
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">Browse Products <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#register" class="btn btn-outline-white">Register Store</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-num">4,000+</div>
+                        <div class="hero-stat-label">Expected Stores</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-num">100K+</div>
+                        <div class="hero-stat-label">Product Data</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="assets/images/hero_market.png" alt="Dongdaemun Market Store Interior" class="hero-img-main">
+                <div class="hero-img-badge">
+                    <div class="hero-img-badge-icon"><i class="fa-solid fa-store" style="color:white;"></i></div>
+                    <div>
+                        <div class="hero-img-badge-text">Secure New Sales Channels</div>
+                        <div class="hero-img-badge-sub">Beyond Offline Limits</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">WHY DDM CONNECT</span>
+                <h2 class="section-title">We Connect Complex Market Information Easily</h2>
+                <p class="section-subtitle">Solve the inconveniences you experienced at Dongdaemun Market with our online platform.</p>
+            </div>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-magnifying-glass-location" style="color:var(--orange);"></i></div>
+                    <h3>Difficulty Finding Products</h3>
+                    <p>Dongdaemun Market has a wide variety of products, but it is very difficult for first-time visitors to find the products they want among countless stores.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-store-slash" style="color:var(--orange);"></i></div>
+                    <h3>Lack of Online Promotion</h3>
+                    <p>Even stores with great products and competitiveness have difficulty meeting new buyers or individual customers if they lack online exposure.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-phone-slash" style="color:var(--orange);"></i></div>
+                    <h3>Inconvenient Inquiry Process</h3>
+                    <p>It is difficult to check product information, exact location, and contact information before visiting the market, which often wastes time and money.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Feature Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">OUR SOLUTIONS</span>
+                <h2 class="section-title">Core Features Connecting Stores and Customers</h2>
+                <p class="section-subtitle">Check out the convenient features provided by DDM Market Connect.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-upload" style="color:white;"></i></div>
+                    <h3>Store Product Registration</h3>
+                    <p>Stores can easily register and manage product images, detailed descriptions, price ranges, categories, and contact information themselves.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-list" style="color:white;"></i></div>
+                    <h3>Explore by Category</h3>
+                    <p>Easily find the products you need by detailed categories such as fabrics, buttons, zippers, lace, accessories, and craft materials.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-map-location-dot" style="color:white;"></i></div>
+                    <h3>Check Info Before Visiting</h3>
+                    <p>Visitors can check the desired products and the exact location (building/floor/room) of the store in advance for an efficient market tour.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-comments" style="color:white;"></i></div>
+                    <h3>Easy Inquiry Connection</h3>
+                    <p>We provide a direct structure that allows you to directly inquire with the store of the product you are interested in via phone, KakaoTalk, or email.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Preview Section -->
+    <section id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PREVIEW</span>
+                <h2 class="section-title">Browse Various Products at a Glance</h2>
+                <p class="section-subtitle">These are examples of products in various categories that real stores will register.</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Fabric</span>
+                        <img src="assets/images/product_linen.png" alt="Premium Linen Fabric">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building A, Fl 2, #201 • Linen Village</div>
+                        <h4 class="product-name">Premium Linen Fabric</h4>
+                        <p class="product-desc">100% premium linen fabric with natural colors and a soft touch.</p>
+                        <button class="product-inquiry-btn" data-product="Premium Linen Fabric">Inquire</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Fabric</span>
+                        <img src="assets/images/product_cotton_floral.png" alt="Floral Pattern Cotton Fabric">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building B, Fl 3, #305 • FloraTex</div>
+                        <h4 class="product-name">Floral Pattern Cotton Fabric</h4>
+                        <p class="product-desc">Bright floral print 20-count cotton fabric perfect for the spring season.</p>
+                        <button class="product-inquiry-btn" data-product="Floral Pattern Cotton Fabric">Inquire</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Trims</span>
+                        <img src="assets/images/product_buttons.png" alt="Metal Button Set">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building C, Fl 1, #112 • Goldstar Buttons</div>
+                        <h4 class="product-name">Metal Button Set</h4>
+                        <p class="product-desc">A collection of gold/silver metal buttons in various designs suitable for jackets and coats.</p>
+                        <button class="product-inquiry-btn" data-product="Metal Button Set">Inquire</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Trims</span>
+                        <img src="assets/images/product_zippers.png" alt="Colorful Zipper Collection">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building D, Fl 1, #145 • Rainbow Zipper</div>
+                        <h4 class="product-name">Colorful Zipper Collection</h4>
+                        <p class="product-desc">High-quality nylon zippers available for custom orders in various colors and lengths.</p>
+                        <button class="product-inquiry-btn" data-product="Colorful Zipper Collection">Inquire</button>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Lace</span>
+                        <img src="assets/images/product_lace.png" alt="Lace Ribbon">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building B, Fl 2, #220 • Lace Story</div>
+                        <h4 class="product-name">Lace Ribbon</h4>
+                        <p class="product-desc">High-quality ivory cotton lace with delicate floral embroidery.</p>
+                        <button class="product-inquiry-btn" data-product="Lace Ribbon">Inquire</button>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Trims</span>
+                        <img src="assets/images/product_bag_hardware.png" alt="Bag Hardware">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building C, B1, #050 • Handicraft</div>
+                        <h4 class="product-name">Bag Hardware</h4>
+                        <p class="product-desc">Various metal ornaments necessary for bag making, such as D-rings, snap hooks, and buckles.</p>
+                        <button class="product-inquiry-btn" data-product="Bag Hardware">Inquire</button>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Accessories</span>
+                        <img src="assets/images/product_beads.png" alt="Bead Decoration Materials">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building A, Fl 5, #508 • Beads World</div>
+                        <h4 class="product-name">Bead Decoration Materials</h4>
+                        <p class="product-desc">A colorful set of crystal beads for making jewelry such as bracelets and necklaces.</p>
+                        <button class="product-inquiry-btn" data-product="Bead Decoration Materials">Inquire</button>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-img-wrap">
+                        <span class="product-category-badge">Accessories</span>
+                        <img src="assets/images/product_accessories.png" alt="Handmade Accessory Parts">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-store">Building A, Fl 5, #532 • Shine Parts</div>
+                        <h4 class="product-name">Handmade Parts</h4>
+                        <p class="product-desc">Trendy design metal charm decorations for making earrings and pendants.</p>
+                        <button class="product-inquiry-btn" data-product="Handmade Accessory Parts">Inquire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Registration Section -->
+    <section id="register">
+        <div class="container register-inner">
+            <div class="register-content">
+                <span class="section-tag">FOR SELLERS</span>
+                <h2 class="section-title">Are You a Dongdaemun Store?<br>Register Your Products Now</h2>
+                <p class="register-desc">Showcase your products online and let more visitors and buyers know about your store. Apply for store registration easily right now.</p>
+                
+                <div class="register-features">
+                    <div class="register-feature-item">
+                        <div class="check"><i class="fa-solid fa-check"></i></div>
+                        <span>Easy product photo upload and description writing</span>
+                    </div>
+                    <div class="register-feature-item">
+                        <div class="check"><i class="fa-solid fa-check"></i></div>
+                        <span>Accurate store location and contact information guide</span>
+                    </div>
+                    <div class="register-feature-item">
+                        <div class="check"><i class="fa-solid fa-check"></i></div>
+                        <span>Direct customer inquiry connection support</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="register-form-wrap">
+                <h3>Free Registration Application</h3>
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label>Store Name (Including Building/Floor/Room)</label>
+                        <input type="text" placeholder="e.g., Building A, Fl 2, #201 Linen Village" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Main Product / Specialty</label>
+                        <input type="text" placeholder="e.g., Linen, Cotton, Knit, etc." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Main Category</label>
+                        <select required>
+                            <option value="">Select Category</option>
+                            <option value="fabric">Fabric (Cotton, Linen, Silk, Functional, etc.)</option>
+                            <option value="trim">Trims (Buttons, Zippers, Thread, etc.)</option>
+                            <option value="lace">Lace/Ribbon</option>
+                            <option value="accessory">Accessories/Craft Materials</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Contact Number</label>
+                        <input type="tel" placeholder="02-000-0000 or Mobile Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Brief Store Description</label>
+                        <textarea placeholder="Please describe the advantages of the store or major handling items."></textarea>
+                    </div>
+                    <button type="submit" class="form-submit-btn">Register Store for Free</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="howitworks">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PROCESS</span>
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">This is the process from store registration to customer inquiry connection.</p>
+            </div>
+            
+            <div class="steps-wrap">
+                <div class="step-card">
+                    <div class="step-number-wrap">
+                        <div class="step-number">1</div>
+                        <div class="step-icon-badge"><i class="fa-solid fa-camera" style="color:var(--orange);"></i></div>
+                    </div>
+                    <h3>Store Registers Products</h3>
+                    <p>Take pictures of products with a smartphone and upload them with brief descriptions.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number-wrap">
+                        <div class="step-number">2</div>
+                        <div class="step-icon-badge"><i class="fa-solid fa-search" style="color:var(--orange);"></i></div>
+                    </div>
+                    <h3>Visitor Searches Products</h3>
+                    <p>Platform visitors easily find the products they need by category or search terms.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number-wrap">
+                        <div class="step-number">3</div>
+                        <div class="step-icon-badge"><i class="fa-solid fa-handshake" style="color:var(--orange);"></i></div>
+                    </div>
+                    <h3>Market Visit or Transaction</h3>
+                    <p>Customers inquire with the store or check the location and visit in person to make a transaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story / Brand Section -->
+    <section id="story">
+        <div class="container story-inner">
+            <div class="story-text">
+                <span class="section-tag">OUR VISION</span>
+                <h2 class="section-title">Expanding the Value of Offline Markets Online</h2>
+                <div class="story-body">
+                    Dongdaemun Market is a special space and a global center for fashion materials where countless stores and diverse products are gathered. However, due to its massive scale, finding a store with the desired products has always been a difficult task.
+                    <br><br>
+                    DDM Market Connect was started to resolve these inconveniences. We help anyone easily discover the market's rich product information online and provide the optimal connection point for stores and customers to meet faster and more conveniently.
+                </div>
+                <div class="story-highlight">
+                    "We will be the digital bridge so that the great products of Dongdaemun merchants can meet more buyers and designers and shine."
+                </div>
+            </div>
+            <div class="story-visual">
+                <div class="story-img-grid">
+                    <div class="story-img-card">
+                        <img src="assets/images/hero_market.png" alt="Dongdaemun Market Scenery">
+                    </div>
+                    <div class="story-img-card">
+                        <img src="assets/images/product_linen.png" alt="Various Fabrics">
+                    </div>
+                    <div class="story-img-card">
+                        <img src="assets/images/product_beads.png" alt="Trim Details">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inquiry Section -->
+    <section id="inquiry">
+        <div class="container inquiry-inner">
+            <div class="inquiry-info">
+                <span class="section-tag">CONTACT US</span>
+                <h2 class="section-title">Any Questions?</h2>
+                <p>Please inquire about anything from platform usage, group store registration, to partnerships. Our representative will check and reply promptly.</p>
+                
+                <div class="inquiry-contact-items">
+                    <div class="inquiry-contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope" style="color:white;"></i></div>
+                        <div>
+                            <div class="contact-label">Email Inquiry</div>
+                            <div class="contact-value">contact@ddmconnect.kr</div>
+                        </div>
+                    </div>
+                    <div class="inquiry-contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-headset" style="color:white;"></i></div>
+                        <div>
+                            <div class="contact-label">Customer Center</div>
+                            <div class="contact-value">Weekdays 10:00 - 17:00 (Closed on weekends/holidays)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="inquiry-form-box">
+                <form id="inquiryForm" class="inquiry-form-grid">
+                    <div class="form-group">
+                        <label>Name / Company Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group inquiry-form-full">
+                        <label>Inquiry Type</label>
+                        <select required>
+                            <option value="">Select Inquiry Type</option>
+                            <option value="use">How to Use Platform</option>
+                            <option value="reg">Store Registration</option>
+                            <option value="partner">Partnership/Cooperation</option>
+                            <option value="etc">Other Inquiries</option>
+                        </select>
+                    </div>
+                    <div class="form-group inquiry-form-full">
+                        <label>Inquiry Content</label>
+                        <textarea rows="4" required></textarea>
+                    </div>
+                    <div class="inquiry-form-full">
+                        <button type="submit" class="btn btn-navy" style="width:100%; justify-content:center; padding:16px;">Submit Inquiry</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <div class="footer-brand-name">DDM<span>Connect</span></div>
+                    <div class="footer-brand-sub">Dongdaemun Market Product Promotion Platform</div>
+                    <p class="footer-brand-desc">The easiest and fastest way to connect stores and customers.<br>Discover the infinite possibilities of Dongdaemun online.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#products">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#register">Register Store</a></li>
+                        <li><a href="#howitworks">How It Works</a></li>
+                        <li><a href="#inquiry">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Policies</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Operating Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copy">&copy; 2026 DDM Market Connect. All rights reserved.</div>
+                <div class="footer-contact">Temporary Contact: <a href="mailto:contact@ddmconnect.kr">contact@ddmconnect.kr</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scrollTop" aria-label="Go to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
